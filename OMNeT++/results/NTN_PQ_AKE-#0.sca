@@ -1,0 +1,99 @@
+version 3
+run NTN_PQ_AKE-0-20260712-13:17:29-341
+attr configname NTN_PQ_AKE
+attr datetime 20260712-13:17:29
+attr datetimef 20260712-131729
+attr experiment NTN_PQ_AKE
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AKENetwork
+attr processid 341
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config description "Proposed Post-Quantum Authenticated Key Exchange for NTN"
+config **.cyclesM1 1500000
+config **.cyclesM2 1389149
+config **.cyclesM3 800000
+config **.cyclesM4 200000
+config **.payloadM1 1232
+config **.overheadM1 2
+config **.payloadM2 1136
+config **.overheadM2 2
+config **.payloadM3 32
+config **.overheadM3 2
+config **.payloadM4 32
+config **.overheadM4 2
+config network AKENetwork
+config sim-time-limit 10s
+config **.cpuFrequency 168000000Hz
+
+par AKENetwork.alice.port$o.channel typename "\"AKENetwork.SatelliteChannel\""
+par AKENetwork.alice.port$o.channel disabled false
+attr mutable ""
+par AKENetwork.alice.port$o.channel delay 0.125s
+attr mutable ""
+attr unit s
+par AKENetwork.alice.port$o.channel datarate 1e+07bps
+attr mutable ""
+attr unit bps
+par AKENetwork.alice.port$o.channel ber 0
+attr mutable ""
+par AKENetwork.alice.port$o.channel per 0
+attr mutable ""
+par AKENetwork.bob.port$o.channel typename "\"AKENetwork.SatelliteChannel\""
+par AKENetwork.bob.port$o.channel disabled false
+attr mutable ""
+par AKENetwork.bob.port$o.channel delay 0.125s
+attr mutable ""
+attr unit s
+par AKENetwork.bob.port$o.channel datarate 1e+07bps
+attr mutable ""
+attr unit bps
+par AKENetwork.bob.port$o.channel ber 0
+attr mutable ""
+par AKENetwork.bob.port$o.channel per 0
+attr mutable ""
+par AKENetwork.alice typename "\"Node\""
+par AKENetwork.alice cpuFrequency 1.68e+08Hz
+attr unit Hz
+par AKENetwork.alice cyclesM1 1500000
+par AKENetwork.alice cyclesM2 1389149
+par AKENetwork.alice cyclesM3 800000
+par AKENetwork.alice cyclesM4 200000
+par AKENetwork.alice payloadM1 1232
+par AKENetwork.alice payloadM2 1136
+par AKENetwork.alice payloadM3 32
+par AKENetwork.alice overheadM1 2
+par AKENetwork.alice overheadM2 2
+par AKENetwork.alice overheadM3 2
+par AKENetwork.alice payloadM4 32
+par AKENetwork.alice overheadM4 2
+scalar AKENetwork.alice "Messages Sent" 2
+scalar AKENetwork.alice "Total Bytes Sent" 1268
+scalar AKENetwork.alice "Total Overhead Bytes" 4
+par AKENetwork.bob typename "\"Node\""
+par AKENetwork.bob cpuFrequency 1.68e+08Hz
+attr unit Hz
+par AKENetwork.bob cyclesM1 1500000
+par AKENetwork.bob cyclesM2 1389149
+par AKENetwork.bob cyclesM3 800000
+par AKENetwork.bob cyclesM4 200000
+par AKENetwork.bob payloadM1 1232
+par AKENetwork.bob payloadM2 1136
+par AKENetwork.bob payloadM3 32
+par AKENetwork.bob overheadM1 2
+par AKENetwork.bob overheadM2 2
+par AKENetwork.bob overheadM3 2
+par AKENetwork.bob payloadM4 32
+par AKENetwork.bob overheadM4 2
+scalar AKENetwork.bob "Messages Sent" 2
+scalar AKENetwork.bob "Total Bytes Sent" 1172
+scalar AKENetwork.bob "Total Overhead Bytes" 4
+par AKENetwork typename "\"AKENetwork\""
+
