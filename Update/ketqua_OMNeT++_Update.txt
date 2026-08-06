@@ -1,0 +1,177 @@
+1) NTN-PQ-AKE
+----------------------
+** Event #1  t=0.008753672619  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1250 Bytes]
+** Event #2  t=0.134753672619  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.142860446429  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 1154 Bytes]
+** Event #4  t=0.268783646429  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.273452271429  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 34 Bytes]
+** Event #6  t=0.398479471429  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.399646632143  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Da xu ly va thu gui M4 ve Alice. [Total Size: 34 Bytes]
+** Event #8  t=0.524673832143  AKENetwork.alice (Node, id=2)  on M4_Packet (AKEMessage, id=7)
+INFO: Alice: Da nhan M4; NTN-PQ-AKE hoan tat end-to-end.
+<!> Simulation time limit reached -- at t=10s, event #9
+** Calling finish() methods of modules
+------------------------------------------------------------------------------------------------------------
+2) NTN-PQ-AKE_Loss1
+** Event #1  t=0.008753672619  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1250 Bytes]
+** Event #2  t=0.134753672619  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.142860446429  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 1154 Bytes]
+** Event #4  t=0.268783646429  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.273452271429  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 34 Bytes]
+** Event #6  t=0.398479471429  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.399646632143  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Da xu ly va thu gui M4 ve Alice. [Total Size: 34 Bytes]
+** Event #8  t=0.524673832143  AKENetwork.alice (Node, id=2)  on M4_Packet (AKEMessage, id=7)
+INFO: Alice: Da nhan M4; NTN-PQ-AKE hoan tat end-to-end.
+<!> Simulation time limit reached -- at t=10s, event #9
+** Calling finish() methods of modules
+-------------------------------------------------------------------
+3) NTN-PQ-AKE_Loss5
+** Event #1  t=0.008753672619  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1250 Bytes]
+** Event #2  t=0.134753672619  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.142860446429  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 1154 Bytes]
+** Event #4  t=0.268783646429  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.273452271429  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 34 Bytes]
+** Event #6  t=0.398479471429  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.399646632143  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Da xu ly va thu gui M4 ve Alice. [Total Size: 34 Bytes]
+** Event #8  t=0.524673832143  AKENetwork.alice (Node, id=2)  on M4_Packet (AKEMessage, id=7)
+INFO: Alice: Da nhan M4; NTN-PQ-AKE hoan tat end-to-end.
+<!> Simulation time limit reached -- at t=10s, event #9
+** Calling finish() methods of modules
+-------------------------------------------------------------------------
+4) NTN_PQ_AKE_VariableLatency
+** Event #1  t=0.008753672619  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1250 Bytes]
+** Event #2  t=0.161078426913  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.169185200723  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 1154 Bytes]
+** Event #4  t=0.317227920283  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.321896545283  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 34 Bytes]
+** Event #6  t=0.468238012159  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.469405172873  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Da xu ly va thu gui M4 ve Alice. [Total Size: 34 Bytes]
+** Event #8  t=0.612429540606  AKENetwork.alice (Node, id=2)  on M4_Packet (AKEMessage, id=7)
+INFO: Alice: Da nhan M4; NTN-PQ-AKE hoan tat end-to-end.
+<!> Simulation time limit reached -- at t=10s, event #9
+** Calling finish() methods of modules
+----------------------------------------------------------------------------------
+5) NTN_PQ_AKE_Congestion
+** Event #1  t=0.008753672619  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1250 Bytes]
+** Event #2  t=0.174547397847  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.182654171657  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 1154 Bytes]
+** Event #4  t=0.353505391081  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.358174016081  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 34 Bytes]
+** Event #6  t=0.545997753983  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.547164914697  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Da xu ly va thu gui M4 ve Alice. [Total Size: 34 Bytes]
+** Event #8  t=0.765172325301  AKENetwork.alice (Node, id=2)  on M4_Packet (AKEMessage, id=7)
+INFO: Alice: Da nhan M4; NTN-PQ-AKE hoan tat end-to-end.
+<!> Simulation time limit reached -- at t=10s, event #9
+** Calling finish() methods of modules
+---------------------------------------------------------------------------
+6) NTN_PQ_AKE_CombinedStress
+** Event #1  t=0.008753672619  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1250 Bytes]
+** Event #2  t=0.235005855297  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.243112629107  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 1154 Bytes]
+** Event #4  t=0.510423617713  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.515092242713  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 34 Bytes]
+** Event #6  t=0.685639343881  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.686806504595  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Da xu ly va thu gui M4 ve Alice. [Total Size: 34 Bytes]
+** Event #8  t=0.831090138361  AKENetwork.alice (Node, id=2)  on M4_Packet (AKEMessage, id=7)
+INFO: Alice: Da nhan M4; NTN-PQ-AKE hoan tat end-to-end.
+<!> Simulation time limit reached -- at t=10s, event #9
+** Calling finish() methods of modules
+---------------------------------------------------------------------------------------------------------
+7) Giao thức: Classical_TLS
+** Event #1  t=0.148605833333  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 214 Bytes]
+** Event #2  t=0.273777033333  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.422382866666  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 1400 Bytes]
+** Event #4  t=0.548502866666  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.619833670237  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 82 Bytes]
+** Event #6  t=0.744899270237  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.768954180951  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Handshake ba flight da hoan tat.
+<!> Simulation time limit reached -- at t=10s, event #8
+** Calling finish() methods of modules
+-------------------------------------------------------------------
+8) Giao thức: Hybrid_TLS
+** Event #1  t=0.026749553571  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1428 Bytes]
+** Event #2  t=0.152891953571  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.479830971428  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 2202 Bytes]
+** Event #4  t=0.606592571428  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.654147339285  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 82 Bytes]
+** Event #6  t=0.779212939285  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.786773314285  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Handshake ba flight da hoan tat.
+<!> Simulation time limit reached -- at t=10s, event #8
+** Calling finish() methods of modules
+--------------------------------------------------------------------------------------
+9) Giao thức: KEMTLS
+** Event #1  t=0.007088636905  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1304 Bytes]
+** Event #2  t=0.133131836905  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.143764789286  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 2538 Bytes]
+** Event #4  t=0.270795189286  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.277883826191  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 1148 Bytes]
+** Event #6  t=0.403802226191  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.406157071429  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Handshake ba flight da hoan tat.
+<!> Simulation time limit reached -- at t=10s, event #8
+** Calling finish() methods of modules
+-------------------------------------------------------------------------
+10) Giao thức: PQ-TLS
+** Event #1  t=0.006267208333  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1334 Bytes]
+** Event #2  t=0.132334408333  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.166281783333  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 5108 Bytes]
+** Event #4  t=0.295368183333  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.308424867857  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 82 Bytes]
+** Event #6  t=0.433490467857  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.43675430119  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Handshake ba flight da hoan tat.
+<!> Simulation time limit reached -- at t=10s, event #8
+** Calling finish() methods of modules
+----------------------------------------------------------------------------------------------
+11) Giao thức: PLS13_PSK_Kyber
+** Event #1  t=0.007688142857  AKENetwork.alice (Node, id=2)  on selfmsg timer_M1 (omnetpp::cMessage, id=0)
+INFO: Alice: Da xu ly va thu gui M1. [Total Size: 1352 Bytes]
+** Event #2  t=0.133769742857  AKENetwork.bob (Node, id=3)  on M1_Packet (AKEMessage, id=1)
+** Event #3  t=0.141073534524  AKENetwork.bob (Node, id=3)  on selfmsg timer_M2 (omnetpp::cMessage, id=2)
+INFO: Bob: Da xu ly va thu gui M2. [Total Size: 1231 Bytes]
+** Event #4  t=0.267058334524  AKENetwork.alice (Node, id=2)  on M2_Packet (AKEMessage, id=3)
+** Event #5  t=0.271198102381  AKENetwork.alice (Node, id=2)  on selfmsg timer_M3 (omnetpp::cMessage, id=4)
+INFO: Alice: Da xu ly va thu gui M3. [Total Size: 77 Bytes]
+** Event #6  t=0.396259702381  AKENetwork.bob (Node, id=3)  on M3_Packet (AKEMessage, id=5)
+** Event #7  t=0.3974425  AKENetwork.bob (Node, id=3)  on selfmsg timer_M4 (omnetpp::cMessage, id=6)
+INFO: Bob: Handshake ba flight da hoan tat.
+<!> Simulation time limit reached -- at t=10s, event #8
+** Calling finish() methods of modules
